@@ -1,0 +1,68 @@
+/* Estilo general */
+body {
+    background-color: #1e3a5f; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-size: 1.2rem; /* Texto más grande */
+    line-height: 1.8; /* Espaciado de líneas */
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Amarillo dorado */
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 40px;
+    background-color: #0d274e;
+}
+
+.nav-link {
+    color: #ffcc00 !important; /* Amarillo dorado */
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+/* Contenedor */
+.container {
+    padding: 40px 20px;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #2d4f74;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.card-text, .btn {
+    font-size: 1.1rem;
+}
+
+.btn-primary, .btn-outline-primary {
+    border-radius: 20px;
+}
+
+/* Modal */
+.modal-content {
+    background-color: #1e3a5f;
+    color: #ffffff;
+}
+
+/* Filas y columnas */
+.row .col {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #0d274e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
